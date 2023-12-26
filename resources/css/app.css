@@ -1,0 +1,300 @@
+
+.border_black{border: 5px solid black;}
+.border_v{border: 5px solid violet;}
+.border_w{border: 5px solid white;}
+.border_r{border: 5px solid red;}
+.border_y{border: 5px solid yellow;}
+.border_o{border: 5px solid orange;}
+.border_blue{border: 5px solid blue}
+.relleno_r{background-color: red;}
+.color_konosuba{color:rgb(52, 143, 213);}
+.relleno_w{background-color: white;}
+
+
+
+
+/* base_header */
+.base_header{
+    background-color: #B6C4B6;
+}
+.btn_config{
+    color: rgb(222, 210, 210) !important;
+    text-decoration: none !important;
+    background-color: #304D30;
+    border: 0px solid rgb(173, 108, 23);
+}
+.btn_config:hover{
+    background-color: rgb(173, 73, 23);
+    border: 1px solid rgb(173, 73, 23);
+
+}
+/* blade 1 */
+.base_form{
+    position: relative;
+    top: 25vh;
+    width: 550px;
+    height: 300px;
+}
+.base_blade_1{
+    background-color: rgba(27, 141, 143, 0.594) !important;
+}
+.base_form{
+    background-color: rgb(183, 224, 223);
+}
+
+/* list_of_products */
+.base_pag_pro{
+    /* height: 138px; */
+    /* height: 180px; */
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgb(35, 6, 11);
+    border-radius: 0px;
+    /* border-bottom: 1px solid black; */
+
+}
+.img_base_list_of_products{
+
+    height: 180px;
+    
+    /* height: 117px; */
+
+}
+.border_separator{
+    border-bottom: 1px solid black;
+   
+
+}
+.content_list_of_products{
+    width: 100%;
+}
+.base_bag_pag_pro_content{
+    background-color: #EEF0E5;
+    
+    padding: 13px;
+}
+
+.button_pro{
+    background-color: #16302085;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.base_form_update{
+    border: 1px solid red !important;
+}
+/* providers */
+
+
+.base_bag_providers{
+    background-color: rgba(54, 35, 35, 0.597);
+    padding: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.base_bag_providers_search{
+    background-color: rgba(54, 35, 35, 0);
+    padding: 10px;
+
+}
+.text_area_control{
+    max-height: 10px;
+}
+.base_search{
+    padding-left: 5px;
+}
+
+/* modal de registro */
+.base_module{
+    border: 0px solid rgb(8, 6, 6);
+    background-color: rgba(0, 0, 0, 0.39);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+}
+.base_register_supeadmin{
+    z-index: 80;
+    border: 5px solid aliceblue;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: aliceblue;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    
+}
+.base_flex{
+    display: flex;
+    justify-content: center;
+}
+.base_register_supeadmin label{
+    border: 0px solid red;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.base_register_supeadmin input{
+    border: 1px solid pink;
+    border-radius: 14px;
+    display: block;
+    margin: 10px;
+    width: 90%;
+    padding: 7px;
+}
+.base_register_supeadmin select{
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgb(149, 149, 149);  
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 140px;    
+}
+.base_register_supeadmin button{
+    background-color: green;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px solid red;
+
+}
+.buton_espcter{
+    background-color: rgb(250, 4, 4);
+    padding: 10px;
+    border-radius: 15px;  
+    border: 0px solid red;
+    left: 52%;
+    z-index: 9000000000000000000;
+    top: 273px;
+    position: relative;
+}
+
+/* ventas */
+.base_purchase_state{
+    width: auto;
+    height: auto;
+    padding: 15px;
+}
+.form_edit{
+    border: 2px solid pink;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: auto;
+    box-shadow: red;
+    margin-top: 50px;
+}
+.control_min{
+    border: 4px solid pink;
+    max-height: 250px;
+    min-height: 200px !important;
+}
+.control_filter{
+    max-height: 100px;
+    min-height: 80px !important;  
+}
+
+.bar_top{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-top: 0px solid black !important;
+}
+.form_search_edit{
+    border-radius: 7px;
+    width: auto;
+    height: 35px;
+}
+.style_comp_create_purchase{
+    text-decoration: underline;
+    color: black;
+
+}
+.border_vista_1{
+    border: 3px solid rgb(194, 107, 107);
+    border-radius: 15px;
+    
+}
+.border_vista_2{
+    border-top: 1px solid black;
+}
+
+/* base agregar ventas */
+
+/* manejo de la barra lateral */
+.base_ventana_list{
+    border: 0px solid yellow;
+    position: absolute;
+    top: 8%;
+    right: 0;
+    height: auto;
+    width: 350px;
+    padding: 10px;
+    z-index: 200;
+    background-color: rgb(106, 206, 186);
+}
+.palet-container {
+    transition: transform 0.5s ease; /* Ajusta la duración y la función de tiempo según tus preferencias */
+    transform: translatey(10%);
+}
+.btn_title{
+    background-color: #163020;
+    color: white;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+.calibre_com{ 
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    position: relative;
+    top: 20px;
+    padding: 12px !important;
+    background-color: rgba(23, 15, 15, 0.42);
+}
+
+.btn_edit_d{
+    background-color: #163020;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.no_cerf{
+    background-color: #333; /* Cambia el color de fondo según tus preferencias */
+    color: rgba(237, 237, 237, 0.992);
+}
+
+.list_deco_error{
+    list-style: none;
+    padding: 0px;
+    border-radius: 0px !important;
+    
+}
+.list_deco_error li{
+    background-color: rgba(101, 29, 29, 0) !important;
+}
+.list_deco_error p{
+    border-radius: 20px !important;
+    background-color: rgb(195, 45, 45) !important;
+    padding: 10px;
+
+}
+.btn_edit{
+    background-color: #304D30;
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.645);
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 17px;
+}
+.btn_search{
+    background-color: #304D30;
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.645);
+    padding: 10px;
+    text-align: center;
+}
